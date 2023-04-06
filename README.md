@@ -12,6 +12,7 @@ The API used is [Alphavantage](https://www.alphavantage.co/documentation/). The 
 ## SetUp
 - Clone the repository using **git clone** command
 - Open the file and run the program in the terminal
+- Make sure you have an active internet connection
 ## References
 - [Alphavantage Documentation](https://www.alphavantage.co/documentation/)
 
