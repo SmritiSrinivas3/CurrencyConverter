@@ -35,7 +35,7 @@ def historical_data(from_value, to_value):
         print("Error: Historical data not available for this currency code")
 
 print("__________LIVE CURRENCY CONVERTER__________")
-print("Convert the desired amount into any foreign currency! For BitCoin, use the code BTC")
+print("Convert the desired amount into any foreign currency! ")
 amount = float(input("Enter the amount: "))
 from_curr = input("From: ").upper()
 to_curr = input("To: ").upper()
