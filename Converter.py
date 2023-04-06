@@ -32,7 +32,7 @@ def historical_data(from_value, to_value):
                 print(f"No historical data available for {date}")
         print("Done!")
     except KeyError:
-        print("Error: Invalid currency code ")
+        print("Error: Historical data not available for this currency code")
 
 print("__________LIVE CURRENCY CONVERTER__________")
 print("Convert the desired amount into any foreign currency! For BitCoin, use the code BTC")
