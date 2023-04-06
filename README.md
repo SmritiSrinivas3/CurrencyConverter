@@ -11,6 +11,7 @@ The API used is [Alphavantage](https://www.alphavantage.co/documentation/). The 
 - To see exchange rates and convert between Digital currencies and Physical currencies
 ## SetUp
 - Clone the repository using **git clone** command
+- If "requests" module is not installed, install it using **pip install requests**
 - Open the file and run the program in the terminal
 - Make sure you have an active internet connection
 ## References
