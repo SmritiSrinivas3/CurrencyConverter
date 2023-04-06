@@ -14,7 +14,7 @@ def currency_converter(from_value, to_value):
         exchange_rate = float(data["Realtime Currency Exchange Rate"]["5. Exchange Rate"])
         return exchange_rate
     except KeyError:
-        print("Error: Invalid currency code")
+        print("Error: Invalid currency code or desired conversion rate not available")
 
 # function for Historical data
 def historical_data(from_value, to_value):
